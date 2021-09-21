@@ -1,0 +1,365 @@
+.heading{
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 52px;
+    color: #2F2B29;
+}
+.card{
+    height: 506px;
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%, #F3F3F3 100%), #F7F7F7;
+    box-shadow: 0 4px 20px rgba(141, 140, 138, 0.22);
+    border-radius: 10px;
+    padding: 0;
+    margin: 0;
+    transition: 0.5s;
+}
+/*.card:hover{*/
+/*    margin-top: -20px;*/
+/*    background-color: #81989d;*/
+/*}*/
+.head{
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 41px;
+    color: #2F2B29;
+}
+
+.ranking1-img{
+    width: 43px;
+    height: 43px;
+    margin-right: 5px;
+    margin-top: -10px;
+}
+.ranking-info{
+    font-size: 20px;
+    line-height: 33px;
+    color: #2F2B29;
+}
+.price{
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 41px;
+    color: #2F2B29;
+}
+.button-info{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #2F2B29;
+}
+.btn{
+    width: 374px;
+    height: 86px;
+    background: #FEDD00;
+    box-shadow: 3px 3px 10px #D8D4BD;
+    border-radius: 100px;
+    margin: 30px 28px;
+    text-decoration: none;
+}
+
+.second-box{
+    margin-top: 180px;
+    height: 518px;
+}
+.box1{
+    width: 70%;
+}
+.box2{
+    width: 30%;
+}
+.data{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+.contact{
+    font-size: 21px;
+    line-height: 33px;
+    color: #2F2B29;
+    margin-top: 55px;
+}
+.sending button{
+    width: 150px;
+    height: 42px;
+    background: #FEDD00;
+    box-shadow: 3px 3px 10px #D8D4BD;
+    border-radius: 100px;
+}
+.send{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #2F2B29;
+}
+.email{
+    margin-top: 45px;
+    display: flex;
+}
+
+.email img{
+    width: 35px;
+    height: 35px;
+}
+.telephone{
+    font-size: 22px;
+    line-height: 33px;
+    color: #2F2B29;
+    margin-top: 45px;
+}
+.number{
+    margin-left: 16px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    color: #2F2B29;
+}
+.e-m{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    color: #2F2B29;
+    margin-left: 15px;
+}
+.box2 img{
+    width: 408px;
+    height: 434px;
+}
+
+.footer{
+    width: 100%;
+    height: 337px;
+    background-color: whitesmoke;
+    padding: 60px 200px;
+}
+.comment{
+    font-size: 20px;
+    line-height: 30px;
+    color: #2F2B29;
+    text-decoration-line: underline;
+    margin-top: 20px;
+}
+.call{
+    margin-top: 23px;
+    display: flex;
+}
+.call img {
+    width: 30px;
+    height: 30px;
+}
+.number, .e-address{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    color: #2F2B29;
+    margin-left: 20px;
+}
+.write{
+    display: flex;
+    margin-top: 27px;
+}
+.write img{
+    width: 30px;
+    height: 30px;
+}
+.foot2{
+    margin-left: 110px;
+    margin-top: 17px;
+}
+.name1{
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    color: #2F2B29;
+}
+a{
+     font-size: 20px;
+     line-height: 30px;
+     color: #2F2B29;
+     flex: none;
+     order: 0;
+     flex-grow: 0;
+}
+a:hover{
+    color: #0286ff;
+    text-decoration: none;
+    border-bottom: 2px solid #0286ff;
+}
+.cat2{
+    margin-left: 36px;
+}
+.foot3{
+    margin-top: 17px;
+    margin-left: 110px;
+}
+.foot4 img{
+    width: 38px;
+    height: 39px;
+    margin-left: 55px;
+    margin-top: 23px;
+}
+.last-word{
+    margin-left: 50px;
+    font-size: 16px;
+    line-height: 25px;
+    color: #2F2B29;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 410px) and (max-width: 576px) {
+    .card{
+        width: 315px;
+        height: 380px;
+        margin-bottom: 30px;
+        display: block;
+        text-align: center;
+    }
+    .heading {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .photo img{
+        height: 35px;
+        width: 30px;
+    }
+    .head{
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .ranking1-img img{
+        height: 20px;
+        width: 20px;
+        margin-left: 23px;
+        margin-top: 5px;
+    }
+    .ranking-info{
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .price{
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .btn{
+        width: 294px;
+        height: 65px;
+    }
+    .button-info{
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+        font-weight: bold;
+        color: #2F2B29;
+    }
+    .second-box{
+        margin-top: -20px;
+    }
+    .box1 .heading{
+        font-size: 18px;
+        line-height: 25px;
+        color: #2F2B29;
+        text-align: center;
+    }
+    .box1 .contact{
+        font-size: 14px;
+        line-height: 19px;
+        color: #2F2B29;
+        margin-top: 25px;
+    }
+    .input1 .form-control{
+        width: 268px;
+        height: 46px;
+    }
+    .input2 .form-control{
+        width: 268px;
+        height: 46px;
+        margin-left: -50px;
+    }
+   .sending{
+       margin-left: -30px;
+       margin-top: -20px;
+   }
+    .sending .btn{
+        width: 216px;
+        height: 50px;
+        background: #FEDD00;
+        box-shadow: 3px 3px 10px #D8D4BD;
+        border-radius: 100px;
+    }
+    .send{
+        font-size: 14px;
+        line-height: 19px;
+        text-align: center;
+        color: #2F2B29;
+        margin-top: 5px;
+
+    }
+    .data{
+        display: block;
+    }
+    .box2 img{
+        display: none;
+    }
+}
+
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
